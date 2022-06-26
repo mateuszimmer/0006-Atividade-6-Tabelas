@@ -1,0 +1,147 @@
+/* ============================== ATIVIDADE 1 ============================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+header table{
+    margin: 0 auto;
+    background-color: lightgray;
+}
+
+header td {
+    padding: 0 25px;   
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header a:active {
+    font-weight: 900;
+    
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.tabela-1 {
+    border: 1px solid;
+    margin: 20px auto 0 auto;
+    background: lightblue;
+    border-collapse: collapse;    
+}
+
+.tabela-1 td {
+    border: 1px solid;
+    height: 30px;
+    width: 200px;
+}
+
+
+
+/* ============================== ATIVIDADE 2 ============================== */
+
+.tabela-2 {
+    width: 900px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+#tabela-nav {
+    margin: 0 auto;
+}
+
+#topo {
+    background-color: rgb(70, 0, 0);
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    text-align: center;
+    color:burlywood;
+}
+
+#menu {
+    width: 25%;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 30px;
+    background-color:burlywood;
+    font-family: 'Pacifico', cursive;
+}
+
+h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Pacifico', cursive;
+    color: rgb(70, 0, 0);
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
+#conteudo {
+    width: 75%;
+    height: 600px;
+    background-color:blanchedalmond;
+    padding: 30px;
+    vertical-align: top;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+#rodape {
+    height: 75px;
+    background-color: rgb(70, 0, 0);
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:burlywood;
+}
+
+
+
+/* ============================== ATIVIDADE 3 ============================== */
+
+.tabela-3 {
+    margin: auto;
+    text-align: center;
+}   
+
+.tabela-3-1, .tabela-3-2, .tabela-3-3 {
+    border: 5px dotted;
+    display: inline-block;
+    margin: 25px;
+}
+
+.tabela-3-1 td, .tabela-3-2 td, .tabela-3-3 td{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+}
+
+.tabela-3-1 td:hover, .tabela-3-2 td:hover, .tabela-3-3 td:hover{
+    color:black;
+    transition-duration: 500ms;
+    cursor: pointer;
+    background-color: rgba(137, 43, 226, 0.5);
+}
+
+.tabela-3-1 td:active, .tabela-3-2 td:active, .tabela-3-3 td:active{
+    color:black;
+    font-weight: bold;
+    transition-duration: 500ms;
+}
